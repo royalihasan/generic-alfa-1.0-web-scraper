@@ -1,0 +1,5 @@
+scrapy==2.11
+scrapeops-scrapy-proxy-sdk
+scrapy-playwright
+scrapy-rotating-proxies
+PyYAML

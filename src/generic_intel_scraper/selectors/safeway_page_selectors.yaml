@@ -1,0 +1,1 @@
+product_category: 'li span[data-qa="brdcrmb"]::text'

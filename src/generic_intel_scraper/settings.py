@@ -5,7 +5,7 @@ NEWSPIDER_MODULE = "generic_intel_scraper.spiders"
 
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3"
 
@@ -36,12 +36,12 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 # SCRAPEOPS SETTINGS
 
-# SCRAPEOPS_API_KEY = '0f49b1a1-3a81-4846-9d5a-bc1d1ce85e9a'
+# SCRAPEOPS_API_KEY = '2b1b732f-ce34-4a84-87a1-8d3955aaa013'
 # SCRAPEOPS_PROXY_ENABLED = True
 # CONCURRENT_REQUESTS = 1
 
 # DOWNLOADER_MIDDLEWARES = {
-#     'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725,
+#     'scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk': 725
 # }
 
 # Playwright settings
@@ -59,4 +59,6 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 
 }
 
-PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT = 100000
+PLAYWRIGHT_DEFAULT_NAVIGATION_TIMEOUT = 5000000
+PLAYWRIGHT_PROCESS_REQUEST_HEADERS = None
+PLAYWRIGHT_BROWSER_TYPE = "firefox"

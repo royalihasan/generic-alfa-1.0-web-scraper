@@ -1,1 +1,4 @@
 product_category: 'li span[data-qa="brdcrmb"]::text'
+product_title: "a.product-title__name::text"
+product_details: div.product-title__qty span::text
+product_links: a.product-title__name::attr(href)

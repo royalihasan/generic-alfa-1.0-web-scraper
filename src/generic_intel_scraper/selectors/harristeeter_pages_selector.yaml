@@ -1,0 +1,6 @@
+weight: "span.ProductDetails-sellBy::text"
+rating: "span.kds-Text--m.mx-4.text-accent-more-prominent::text"
+total_reviews: "span.kds-Text--m.ml-1.text-accent-more-prominent::attr(aria-label)"
+stocks: "span.kds-Tag-text::text"
+sold_and_shipped_by: 'button.kds-Text--m.WebBuyLinkButton.p-0.text-accent-more-prominent.truncate[data-testid="marketplace-sellers-name"]::text'
+sub_category: "ol.list-none li.inline a::text"

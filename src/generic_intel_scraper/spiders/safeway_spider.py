@@ -10,10 +10,11 @@ class SafewaySpider(scrapy.Spider):
         'https://www.safeway.com/shop/aisles/baby-care.html?loc=3132']
     custom_settings = {
         "DOWNLOAD_DELAY": 3,
-        "COOKIES_ENABLED": False,
+        "COOKIES_ENABLED": True,
         "AUTOTHROTTLE_ENABLED": True,
         "CONCURRENT_REQUESTS": 5,
         "ROBOTSTXT_OBEY": False,
+        "COOKIES_DEBUG": True
 
     }
 
